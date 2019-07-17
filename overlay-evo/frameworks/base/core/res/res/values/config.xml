@@ -52,9 +52,7 @@
      config to 7. -->
     <integer name="config_deviceHardwareKeys">83</integer>
 
-    <!-- Whether device has button lights support -->
-    <bool name="config_button_brightness_support">true</bool>
-    <integer name="config_button_brightness_default">32</integer>
+
 
     <!-- Button illumination -->
     <bool name="config_button_brightness_support">true</bool>
