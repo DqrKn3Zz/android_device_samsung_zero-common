@@ -412,4 +412,13 @@ Add a comment to this line
          For this time after the screen turns on, the Power Manager
          will not debounce light sensor readings -->
     <integer name="config_lightSensorWarmupTime">200</integer>
+     
+    <!-- Button illumination -->
+    <bool name="config_button_brightness_support">true</bool>
+
+    <!-- Home button wake -->
+    <java-symbol type="bool" name="config_HomeWakeButton" />
+
+    <!-- True if the home button has the ability to wake up phone from lockscreen-->
+    <bool name="config_HomeWakeButton">true</bool>
 </resources>
