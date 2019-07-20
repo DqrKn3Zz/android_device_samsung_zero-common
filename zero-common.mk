@@ -20,6 +20,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 # Common Overlays
 DEVICE_PACKAGE_OVERLAYS += device/samsung/zero-common/overlay
 
+PRODUCT_ENFORCE_RRO_TARGETS := \
+    framework-res
+
 ifneq (,$(wildcard lineage-sdk/ ))
 DEVICE_PACKAGE_OVERLAYS += device/samsung/zero-common/overlay-lineage
 else
