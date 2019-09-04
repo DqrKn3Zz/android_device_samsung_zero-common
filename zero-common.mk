@@ -95,12 +95,17 @@ PRODUCT_PACKAGES += \
     libtinycompress \
     android.hardware.audio@2.0-impl \
     android.hardware.audio.effect@2.0-impl
+    
+# Browser
+PRODUCT_PACKAGES += \
+    Jelly
 
 # Bluetooth
 PRODUCT_PACKAGES += \
 	android.hardware.bluetooth@1.0-impl.zero \
 	android.hardware.bluetooth@1.0-service \
 	libbt-vendor
+	
 
 # Camera
 PRODUCT_PACKAGES += \
