@@ -100,6 +100,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Jelly
 
+# Gallery
+PRODUCT_PACKAGES += \
+    QP_Gallery
+
 # Music Player
 PRODUCT_PACKAGES += \
     RetroMusicPlayer
