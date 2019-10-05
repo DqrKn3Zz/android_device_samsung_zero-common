@@ -100,6 +100,14 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Jelly
 
+# Music Player
+PRODUCT_PACKAGES += \
+    RetroMusicPlayer
+    
+# Launcher
+PRODUCT_PACKAGES += \
+    Lawnchair
+
 # Bluetooth
 PRODUCT_PACKAGES += \
 	android.hardware.bluetooth@1.0-impl.zero \
