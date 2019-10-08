@@ -102,7 +102,7 @@ PRODUCT_PACKAGES += \
 
 # Gallery
 PRODUCT_PACKAGES += \
-    QP_Gallery
+    GalleryRoll
 
 # Music Player
 PRODUCT_PACKAGES += \
