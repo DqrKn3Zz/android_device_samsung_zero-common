@@ -102,7 +102,7 @@ PRODUCT_PACKAGES += \
 
 # Gallery
 PRODUCT_PACKAGES += \
-    GalleryRoll
+    Gallery2
 
 # Music Player
 PRODUCT_PACKAGES += \
