@@ -100,25 +100,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Jelly
 
-# Gallery
-PRODUCT_PACKAGES += \
-    Gallery2
-
-# Music Player
-PRODUCT_PACKAGES += \
-    RetroMusicPlayer
-    
-# Launcher
-PRODUCT_PACKAGES += \
-    Lawnchair
-
 # Bluetooth
 PRODUCT_PACKAGES += \
 	android.hardware.bluetooth@1.0-impl.zero \
 	android.hardware.bluetooth@1.0-service \
 	libbt-vendor
 	
-
 # Camera
 PRODUCT_PACKAGES += \
     camera.exynos5 \
