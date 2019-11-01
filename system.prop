@@ -1,5 +1,5 @@
 ###
-# BEGIN zero-common device-properties
+# BEGIN noblelte-common device-properties
 #
 # Copyright (C) 2016 The CyanogenMod Project
 # Copyright (C) 2017 The LineageOS Project
@@ -61,7 +61,6 @@ import /efs/factory.prop
 
 import /init.rilchip.prop
 
-
 #
 # OMX
 #
@@ -97,7 +96,7 @@ debug.hwc.max_hw_overlays=6
 
 ro.opengles.version=196610 
 debug.hwui.use_buffer_age=false 
-ro.sf.lcd_density=640 
+ro.sf.lcd_density=560
 sys.use_fifo_ui=1 
 
 #
@@ -113,7 +112,7 @@ ro.config.vc_call_vol_steps=15
 # Vendor Security Patch Level
 #
 
-ro.lineage.build.vendor_security_patch=2019-01-01
+ro.lineage.build.vendor_security_patch=2018-08-01
 
 #
 # Wi-Fi
@@ -177,5 +176,5 @@ net.ipv4.tcp_window_scaling=1
 net.ipv4.tcp_wmem=4096 39000 187000
 
 #
-# END zero device-properties
+# END noblelte device-properties
 ###
